@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* banner styles */
+#banner-container{
+    height: 650px;
+    width: 1400px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background: rgba(229, 84, 115, 0.1);
+    margin-bottom: 120px;
+}
+.div-flex{
+    display: flex;
+}
+.first-div h1{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.first-div p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.first-div button{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    padding: 10px;
+    width: 30%;
+}
+.first-div{
+    margin-left: 100px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+/* banner styles ends here */
+
+/* second section starts here */
+#second-part{
+    height: 750px;
+    width: 1400px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
+}
+#second-part h2{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;    
+}
+#second-part p{
+   color: rgba(39, 39, 39, 0.6);
+   font-family: Lato;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-top: 20px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.image-1{
+    /* border: 2px solid red; */
+    border-radius: 50% 50% 0 0;
+    padding: 20px;
+    padding-top: 40px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.image-2{
+    /* border: 2px solid red; */
+    border-radius: 50% 50% 0 0;
+    /* padding-top: 50px;
+    padding-left: 30px; */
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.image-3{
+    /* border: 2px solid red; */
+    border-radius: 50% 50% 0 0;
+    padding: 20px;
+    padding-top: 40px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+/* second-section ends here */
+
+/* icons-section starts here */
+#icons{
+    height: 320px;
+    width: 1400px;
+    border: 2px solid rgba(39, 39, 39, 0.05);
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin-bottom: 150px;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+.detail-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+}
+.detail-container p{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* icons-section ends here */
+
+/* sale-section starts here */
+#sale{
+    height: 520px;
+    width: 1400px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-bottom: 80px;
+}
+.sale-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-sale h1{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.first-sale p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;    
+}
+.first-sale button{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    padding: 10px;
+    width: 30%;   
+}
+/* sale section ends here */
+/* instagram section starts here */
+#instagram{
+    height: 650px;
+    width: 1440px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
+}
+.ins-img-container{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 40px;
+}
+#instagram h2{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#instagram p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#deal{
+    height: 449px;
+    width: 1400px;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-image: url(flower-shop-conceptual-b10/images/latest-deals-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+#deal h2{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 100px;
+}
+#deal p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+.input-styles{
+    border-radius: 8px;
+    border: none;
+    padding: 20px;
+    width: 30%;
+    height: 14%;
+    box-shadow: 10px 10px 10px 10px lightgray ;
+}
+#deal button{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    border: none;
+    padding: 15px;
+    width: 10%;
+    height: 12%;
+}
+/* instagram section ends here */
+/* footer section starts here */
+#footer{
+    height: 449px;
+    width: 98.9vw;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: rgb(17, 16, 16);
+}
+#footer h2{
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+    margin-top: 100px;    
+}
+.same-p{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+.dif-p{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 40px;
+}
+/* footer section starts here */
